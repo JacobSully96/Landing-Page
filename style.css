@@ -1,7 +1,7 @@
 .img-placeholder{
     height: 200px;
     width: 450px;
-    background-color: antiquewhite;
+    background-color: rgb(187, 184, 181);
 }
 
 .box{
@@ -19,7 +19,11 @@
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
+
+
+/* Sec 1 */
 
 .header{
     display: flex;
@@ -36,6 +40,8 @@ body{
 
 .header li{
     list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .header ul{
@@ -52,4 +58,44 @@ body{
 
 .link-container{
     display: flex;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+
+/* sec 2 */
+
+.sec1{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: #1f2937;
+}
+
+.title h1{
+    font-family: roboto, sans-serif;
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.title p {
+    font-family: roboto, sans-serif;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.btn-sign-up{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-family: roboto, sans-serif;
+    font-size: 12px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
 }
