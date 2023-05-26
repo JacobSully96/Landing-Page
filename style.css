@@ -152,6 +152,33 @@ body{
 
 
 /* sec 4 */
+.sec4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.sign-up-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: white;
+    font-family: roboto, sans-serif;
+    width: 1000px;
+    padding: 0 30px;
+}
+
+.btn-sign-up{
+    border: 1px solid white;
+}
+
+.sign-up-container p{
+    font-size: 15px;
+}
+
 
 
 /* footer */
