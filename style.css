@@ -110,7 +110,7 @@ body{
 
 .container{
     display: flex;
-    gap: 25px;
+    gap: 45px;
 }
 
 .box-container{
@@ -124,6 +124,7 @@ body{
 
 .box-container .text{
     width: 150px;
+    text-align: center;
 }
 
 .box{
@@ -135,6 +136,19 @@ body{
 
 
 /* sec 3 */
+
+.sec3{
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+
+.quote{
+    color: #1f2937;
+    font-size: 26px;
+    font-style: italic;
+}
 
 
 /* sec 4 */
