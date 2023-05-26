@@ -1,0 +1,12 @@
+.img-placeholder{
+    height: 200px;
+    width: 450px;
+    background-color: antiquewhite;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
