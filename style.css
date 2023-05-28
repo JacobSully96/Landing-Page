@@ -26,7 +26,8 @@ body{
     align-items: center;
     background-color: #1f2937;
     color: white;
-    font-family: roboto, sans-serif;
+    font-family: 'Raleway', sans-serif;
+    padding: 0 250px;
 }
 
 .header h1{
@@ -37,6 +38,7 @@ body{
     list-style-type: none;
     font-size: 18px;
     color: #e5e7eb;
+    
 }
 
 .header ul{
@@ -68,17 +70,24 @@ body{
     justify-content: center;
     gap: 50px;
     background-color: #1f2937;
+    padding: 100px 300px 100px;
 }
 
+/* .center-container{
+    display: flex;
+    
+    border: 1px solid black;
+} */
+
 .title h1{
-    font-family: roboto, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
 }
 
 .title p {
-    font-family: roboto, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -88,7 +97,7 @@ body{
     color: white;
     border-radius: 5px;
     border: none;
-    font-family: roboto, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 12px;
     height: 30px;
     width: 100px;
@@ -105,7 +114,7 @@ body{
 }
 
 .sec2 h1{
-    font-family: roboto, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .container{
@@ -188,6 +197,6 @@ body{
     align-items: center;
     background-color: #1f2937;
     color: white;
-    font-family: roboto, sans-serif;
+    font-family: 'Raleway', sans-serif;
     height: 80px;
 }
