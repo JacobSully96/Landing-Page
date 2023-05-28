@@ -1,8 +1,4 @@
-.img-placeholder{
-    height: 200px;
-    width: 450px;
-    background-color: rgb(187, 184, 181);
-}
+
 
 
 
@@ -27,7 +23,7 @@ body{
     background-color: #1f2937;
     color: white;
     font-family: 'Raleway', sans-serif;
-    padding: 0 250px;
+    /* padding: 0 250px; */
 }
 
 .header h1{
@@ -61,6 +57,7 @@ body{
     font-size: 24px;
     color: #f9faf8;
 }
+
 
 
 /* sec 1 */
@@ -102,6 +99,11 @@ body{
     height: 30px;
     width: 100px;
     text-align: center;
+}
+
+.img-container img{
+    height: 250px;
+    width: 450px;
 }
 
 
